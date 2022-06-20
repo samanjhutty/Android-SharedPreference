@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_margin="16dp"
+        android:id="@+id/etMessage"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="message to save"/>
+
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMessage"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_margin="8dp"
+        android:id="@+id/btnSave"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show"
+        android:backgroundTint="@color/black"
+        android:layout_margin="8dp"
+        android:id="@+id/btnShow"/>
+</LinearLayout>
+
+
+</LinearLayout>
